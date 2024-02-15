@@ -18,4 +18,8 @@ function getPetExerciseInfo() {
                 console.log("Tipo de mascota no válido");
         }
     }
+
+    function obtenerEdadMascota() {
+        return Number(prompt("Edad de la mascota"));
+    }
 }
