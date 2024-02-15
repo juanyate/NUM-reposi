@@ -53,4 +53,20 @@ function getPetExerciseInfo() {
                 return "Tipo de mascota no válido";
         }
     }
+
+    let tipoMascota = obtenerTipoMascota();
+
+
+imprimirTipoMascota(tipoMascota);
+
+
+let edadMascota = obtenerEdadMascota();
+
+
+let infoEjercicio = obtenerInfoEjercicioMascota(tipoMascota, edadMascota);
+
+console.log(infoEjercicio);
+
 }
+
+getPetExerciseInfo();
